@@ -1,0 +1,14 @@
+<launch>
+	
+	<node pkg="jmx_rosproject" type="consoleNode.py" name="consoleNode" output="screen">
+	</node>
+
+	<node pkg="jmx_rosproject" type="mainNode.py" name="mainNode" output="screen">
+	</node>
+
+	<node pkg="jmx_rosproject" type="turnServer.py" name="turnServer" output="screen">
+	</node>
+
+	<node pkg="jmx_rosproject" type="fakeNLP.py" name="fakeNLP" output="screen">
+	</node>
+</launch>
